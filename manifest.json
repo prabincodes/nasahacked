@@ -3,8 +3,8 @@
   "short_name": "DailyRashifal",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#FFE9D2",
-  "theme_color": "#FFE1C4",
+  "background_color": "#0288D1",
+  "theme_color": "#00ACC1",
   "orientation": "portrait-primary",
   "icons": [
     {
