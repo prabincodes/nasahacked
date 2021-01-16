@@ -1,6 +1,6 @@
 {
-  "name": "Food Ninja",
-  "short_name": "FoodNinja",
+  "name": "Daily Rashifal",
+  "short_name": "DailyRashifal",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#FFE9D2",
