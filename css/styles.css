@@ -10,20 +10,23 @@
   border-color:#32CD32;
   position: fixed;
   top: 50%;
-  border-radius:15px;
-  border-left-width:15px;
+  border-radius:0.9375rem;
+  border-left-width:0.9375rem;
  
+}
+.text{
+    font-size:2rem;
 }
 /* layout styles */
 nav{
   background: var(--primary);
-  border-bottom: 5px solid var(--secondary);
-  border-bottom-left-radius:30px 20px;
-  border-bottom-right-radius:30px 20px;
+  border-bottom: 0.3125rem solid var(--secondary);
+  border-bottom-left-radius:1.875rem 1.25rem;
+  border-bottom-right-radius:1.875rem 1.25rem;
   
 }
 nav a{
-  text-transform: uppercase;
+  text-transform:;
   color: white;
 }
 nav a span{
