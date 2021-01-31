@@ -4,7 +4,7 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "app_name": "Daily Rashifal",
+    "name": "Daily  for Rashifal",
     "short_name": "DailyRashifal",
     "description": "Rashifal app",
     "icons": [
