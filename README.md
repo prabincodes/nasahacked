@@ -1,2 +1,2 @@
-# nasahacked
-This is how i hack nasa Using pure HTmL1
+# दैनिक राशिफल
+मुन चिसो खबर डट कम
