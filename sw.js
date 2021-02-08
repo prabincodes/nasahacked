@@ -1,4 +1,4 @@
-const kaich = 'site-static';
+const cache = 'site-static';
 const assets = [
   '/',
   '/index.html',
@@ -15,7 +15,7 @@ const assets = [
 self.addEventListener('install', evt => {
   
   evt.waitUntil(
-    caches.open(kaich).then((cache) => {
+    caches.open(cache).then((cache) => {
   
       cache.addAll(assets);
     })
