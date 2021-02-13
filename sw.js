@@ -4,8 +4,7 @@ const assets = [
   '/index.html',
   '/js/app.js',
   '/css/styles.css',
-  '/img/images.jpg',
-  'https://fonts.googleapis.com/css2?family=ifanyfont',
+  'https://fonts.googleapis.com/css2?family=ifanyfont'
 ];
 // install event
 self.addEventListener('install', evt => {
