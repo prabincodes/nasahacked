@@ -1,11 +1,11 @@
 const staticCacheName = 'site-static-v1';
 const assets = [
-  '/',
+  "/",
+  "/img/favicon.png",
   '/index.html',
-  '/js/app.js',
-  '/css/styles.css',
-  'https://fonts.googleapis.com/css2?family=ifanyfont'
-];
+  '/js/',
+  '/css/'
+  ];
 // install event
 self.addEventListener('install', evt => {
   evt.waitUntil(
