@@ -1,5 +1,5 @@
-{"name": "App Name",
-  "short_name": "App",
+{"name": "Daily Rashifal",
+  "short_name": "Rashifal",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#527cec",
