@@ -1,4 +1,4 @@
-const staticCacheName = 'daily-rashifal-by-prabin';
+const staticCacheName = "daily-rashifal-by-prabin";
 const assets = [
 "/",
 "/icon-192x192.png",
@@ -6,21 +6,21 @@ const assets = [
 "/icon-384x384.png",
 "/icon-512x512.png",
 "/img/favicon.png",
-'/index.html',
-'/js/',
-'/css/'
+"/index.html",
+"/js/app.js",
+"/css/styles.css"
   ];
 // install event
-self.addEventListener('install', evt => {
+self.addEventListener("install", evt => {
   evt.waitUntil(
     caches.open(staticCacheName).then((cache) => {
-      console.log('caching shell assets');
+      console.log("caching shell assets");
       cache.addAll(assets);
     })
   );
 });
 // activate event
-self.addEventListener('activate', evt => {
+self.addEventListener("activate", evt => {
   evt.waitUntil(
     caches.keys().then(keys => {
       return Promise.all(keys
@@ -31,7 +31,7 @@ self.addEventListener('activate', evt => {
   );
 });
 // fetch event
-self.addEventListener('fetch', evt => {
+self.addEventListener("fetch", evt => {
   evt.respondWith(
     caches.match(evt.request).then(cacheRes => {
       return cacheRes || fetch(evt.request).then(fetchRes => {
