@@ -1,4 +1,4 @@
-const staticCacheName = 'site-static-v1';
+const staticCacheName = 'daily-rashifal-by-prabin';
 const assets = [
 "/",
 "/icon-192x192.png",
