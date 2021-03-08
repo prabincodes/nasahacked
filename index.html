@@ -1,60 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Daily Rashifal</title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" href="/css/styles.css" rel="stylesheet">
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <link rel="manifest" href="/manifest.json">
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#1E90FF">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#1E90FF">
-</head>
-<body class="grey lighten-4">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Daily Rashifal</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link type="text/css" href="/css/styles.css" rel="stylesheet" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+    ></script>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#1E90FF" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#1E90FF" />
+  </head>
+  <style>
+    .card {
+      border: solid 2px;
+      border-radius: 5px;
+      border-color: #f5f5f5;
+    }
+  </style>
+  <body class="grey lighten-4">
+    <!-- top nav -->
+    <nav class="z-depth-0">
+      <div align="center">
+        <a href="/"> <span class="text">Daily Rashifal</span></a>
+      </div>
+    </nav>
 
-  <!-- top nav -->
-  <nav class="z-depth-0">
-    <div align="center" container">
-      <a  href="/"> <span class="text">Daily Rashifal</span></a> 
+    <div class="row">
+      <div id="d"></div>
     </div>
-  </nav>
 
-  
-<div  class="layout" align="center">
-   Prabin Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non mi faucibus, efficitur arcu sit amet, tempus magna. Vestibulum felis sapien, condimentum vitae euismod vitae, commodo non metus. Etiam pretium augue enim, eget scelerisque neque fermentum et. In interdum erat a neque laoreet venenatis. Maecenas sapien mi, congue et ultrices sed, dictum ut dui. Suspendisse vel laoreet ex. Vestibulum a tincidunt tortor, quis molestie nisi. Duis tincidunt, sem a tempor imperdiet, ligula urna eleifend nibh, at condimentum dui lorem vel massa. Duis sed commodo tortor. Praesent pretium consectetur lorem et luctus. Mauris quam magna, pellentesque sed blandit eu, tincidunt eget ex.</div>
- <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
-    <script type="text/javascript">
-
-        const txt = baffle(".text");
-        txt.set({
-        //Replace the characters you want below and each character is separated by "/"
-            characters : ' ',
- speed: 90
+    <script>
+      fetch("https://rashifal-api.herokuapp.com/all")
+        .then(res => res.json())
+        .then(data => {
+          console.log(data);
+          data.forEach(obj => {
+            document.getElementById("d").innerHTML += `<div class="col s6">
+          <div class="card">
+            <h5 align="center">
+              ${obj.sunsign}
+            </h5>
+            <div id="prediction" align="center">
+            
+            ${obj.prediction}
+            
+            </div>
+        </div>
+  </div>
+  `;
+          });
         });
-        txt.start();
-        txt.reveal(3000);
     </script>
 
- 
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+    <script type="text/javascript">
+      const txt = baffle(".text");
+      txt.set({
+        //Replace the characters you want below and each character is separated by "/"
+        characters: " ",
+        speed: 90
+      });
+      txt.start();
+      txt.reveal(3000);
+    </script>
+  </body>
   <script src="/js/app.js"></script>
 </html>
