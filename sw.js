@@ -1,5 +1,5 @@
 const staticCacheName = "daily-rashifal-by-prabin";
-const dynamicCacheName = "newCache";
+const dynamicCacheName = "newCacheAutoUpdate";
 const assets = [
 "/",
 "/icon-192x192.png",
