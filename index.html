@@ -85,9 +85,10 @@
     <div class="row">
       <div id="d"></div>
     </div>
-</div>
-    <script>
-      fetch("https://rashifal-api.herokuapp.com/all")
+</div> 
+           <script> 
+           let url= "https://rashifal-api.herokuapp.com/all"
+      fetch(url)
         .then(res => res.json())
         .then(data => {
           console.log(data);
@@ -98,7 +99,6 @@
               ${obj.sunsign}
             </h5>
             <div id="prediction" align="center">
-            
             ${obj.prediction}
             
             </div>
