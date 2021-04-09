@@ -7,7 +7,6 @@ const assets = [
 "/icon-384x384.png",
 "/icon-512x512.png",
 "/img/favicon.png",
-"/index.html",
 "/js/app.js",
 "/css/styles.css"
   ];
