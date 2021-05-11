@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta
+      name="description"
+      content="A PWA that can fetch daily horoscope predictions from unofficial rashifal-api by Prabin Subedi"
+    />
+    <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
@@ -80,14 +84,15 @@
       <div align="center">
         <a href="/"> <span class="text">Daily Rashifal</span></a>
       </div>
-    </nav><br ><br ><br>
-<div class="container">
-    <div class="row">
-      <div id="d"></div>
+    </nav>
+    <br /><br /><br />
+    <div class="container">
+      <div class="row">
+        <div id="d"></div>
+      </div>
     </div>
-</div> 
-           <script> 
-           let url= "https://rashifal-api.herokuapp.com/all"
+    <script>
+      let url = "https://rashifal-api.herokuapp.com/all";
       fetch(url)
         .then(res => res.json())
         .then(data => {
